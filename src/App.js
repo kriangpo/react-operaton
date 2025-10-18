@@ -4,7 +4,7 @@ import { Send, CheckCircle, XCircle, Loader2 } from 'lucide-react';
 // ข้อมูลการเชื่อมต่อ Camunda (ต้องอัปเดต URL นี้ให้ถูกต้องตามสภาพแวดล้อมของคุณ)
 // โดยทั่วไป Camunda Engine จะเปิดอยู่ที่พอร์ต 8080 
 const CAMUNDA_BASE_URL = 'http://docker2.devops.esc.yipintsoigroup.com:8080/engine-rest'; // !!! โปรดแก้ไข URL นี้
-const PROCESS_DEFINITION_KEY = 'leave_approval_process'; // *** แก้ไขให้ตรงกับ id ใน BPMN ล่าสุด ***
+const PROCESS_DEFINITION_KEY = 'leave_approval_process2'; // *** แก้ไขให้ตรงกับ id ใน BPMN ล่าสุด ***
 
 // Component หลัก
 const App = () => {
